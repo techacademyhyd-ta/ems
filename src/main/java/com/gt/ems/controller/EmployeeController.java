@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmployeeController {
      @GetMapping("/hello")
     public  String index(){
-        return "Hello World!";
+        return "Welcome to jenkins !";
     }
 
 }
